@@ -1,0 +1,9 @@
+08:06;0;Karlsruhe Hbf;12
+08:11;1;Karlsruhe-Durlach;1
+08:27;1;Pforzheim Hbf;3
+08:35;1;Mühlacker;1
+08:41;1;Vaihingen(Enz);2
+09:00;8;Stuttgart Hbf;15
+09:28;1;Schorndorf;2
+09:41;1;Schwäbisch Gmünd;1
+09:56;0;Aalen Hbf;2

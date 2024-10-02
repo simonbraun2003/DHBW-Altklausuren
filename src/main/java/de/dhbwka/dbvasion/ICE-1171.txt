@@ -1,0 +1,16 @@
+15:29;0;Berlin Hbf (tief);2
+15:31;2;Berlin Südkreuz;3
+16:09;1;Lutherstadt Wittenberg Hbf;2
+16:42;6;Leipzig Hbf;11
+17:28;2;Erfurt Hbf;2
+17:54;1;Eisenach;5
+18:48;2;Fulda;3
+19:32;2;Hanau Hbf;6
+19:52;14;Frankfurt(Main)Hbf;6
+20:44;2;Mannheim Hbf;8
+21:09;3;Karlsruhe Hbf;2
+21:28;1;Baden-Baden;7
+21:45;2;Offenburg;1
+22:15;2;Freiburg(Breisgau) Hbf;3
+22:51;6;Basel Bad Bf;3
+23:04;0;Basel SBB;9;

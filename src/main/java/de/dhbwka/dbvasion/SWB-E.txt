@@ -1,0 +1,5 @@
+14:16;0;Stuttgart Hbf;16
+15:22;2;Ulm Hbf;3
+15:44;5;Biberach(Riß);1
+16:02;2;Meckenbeuren;1
+17:10;0;Bad Waldsee, Durlesbach;2

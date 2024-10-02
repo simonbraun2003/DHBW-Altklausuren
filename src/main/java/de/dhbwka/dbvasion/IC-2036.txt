@@ -1,0 +1,22 @@
+13:42;0;Leipzig Hbfv;18
+14:00;6;Halle(Saale)Hbf;9
+14:25;2;Köthen;5
+14:53;7;Magdeburg Hbf;3
+15:25;1;Helmstedt;1
+15:48;1;Braunschweig Hbf;6
+16:23;22;Hannover Hbf;11
+17:11;2;Nienburg(Weser);2
+17:28;2;Verden(Aller);2
+17:50;3;Bremen Hbf;3
+18:02;2;Delmenhorst;3
+18:11;1;Hude;2
+18:23;10;Oldenburg(Oldb)Hbf;6
+18:43;1;Bad Zwischenahn;1
+18:50;1;Westerstede-Ocholt;3
+18:58;1;Augustfehn;2
+19:14;8;Leer(Ostfriesl);4
+19:38;4;Emden Hbf;5
+19:57;2;Marienhafe;2
+20:06;2;Norden;1
+20:14;2;Norddeich;2
+20:20;0;Norddeich Mole;1

@@ -1,0 +1,7 @@
+10:10;0;Blumberg-Zollhaus;1
+10:19;2;Epfenhofen;1
+10:26;2;Wutachblick;1
+10:40;2;Fützen;2
+10:50;2;Grimmelshoofen;1
+11:00;2;Lausheim-Blumegg;2
+11:07;0;Weizen;1

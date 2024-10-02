@@ -1,0 +1,13 @@
+10:17;0;Hamburg-Altona;11
+10:25;1;Hamburg Dammtor;4
+10:31;3;Hamburg Hbf;5
+12:08;2;Berlin-Spandau;5
+12:20;9;Berlin Hbf (tief);1
+12:34;2;Berlin Südkreuz;3
+13:10;1;Lutherstadt Wittenberg Hbf;2
+13:42;6;Leipzig Hbf;14
+14:29;2;Erfurt Hbf;1
+15:14;2;Bamberg;3
+15:36;2;Erlangen;4
+15:52;3;Nürnberg Hbf;9
+17:01;0;München Hbf;20

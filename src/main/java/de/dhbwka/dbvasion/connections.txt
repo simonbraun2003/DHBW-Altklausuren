@@ -1,0 +1,6 @@
+ICE-1171;Berlin Hbf;Basel SBB;false;176.20
+ICE-509;Hamburg Altona;München Hbf;false;178.30
+IC-2036;Leipzig Hbf;Norddeich Mole;false;115.50
+IRE-19673;Karlsruhe Hbf;Aalen Hbf;true;12.90
+SWB-E;Stuttgart Hbf;Durlesbach;true;26.50
+SBB-V;Blumberg-Zollhaus;Weizen;true;11.50
