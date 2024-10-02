@@ -1,21 +1,23 @@
 package de.dhbwka.dbvasion.classes;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 public class TrainConnection {
-    String name;
-    String start; //Startbahnhof
-    String end;
-    boolean regional; //Regionalverkehr??
-    double price;
-    List<String> stops = new LinkedList<String>();
+    private String name;
+    private String start; //Startbahnhof
+    private String end;
+    private boolean regional; //Regionalverkehr??
+    private double price;
+    private List<Stop> stops = new ArrayList<>();
 
     public TrainConnection(String name, String start, String end, boolean regional, double price) {
         this.name = name;
         this.start = start;
         this.end = end;
         this.regional = regional;
+        this.price = price;
     }
 
     public String getName() {
@@ -58,11 +60,12 @@ public class TrainConnection {
         this.price = price;
     }
 
-    public List<String> getStops() {
+    public List<Stop> getStops() {
         return stops;
     }
 
-    public void setStops(List<String> stops) {
+    public void setStops(List<Stop> stops) {
         this.stops = stops;
     }
+
 }

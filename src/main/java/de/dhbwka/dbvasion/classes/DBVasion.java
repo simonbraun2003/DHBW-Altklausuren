@@ -21,14 +21,17 @@ public class DBVasion {
 			UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName() );
 		} catch (Exception e) {
 		}
-		
+
 		try {
             List<TrainConnection> connections = loadConnections();
 
 			new ConnectionSelectionTerm(connections);
+
 		} catch (DBException e) {
 			e.printStackTrace();
 		}
+
+
 	}
 	
 	public static List<TrainConnection> loadConnections() throws DBException {
@@ -37,16 +40,15 @@ public class DBVasion {
 		try(BufferedReader br = new BufferedReader(new FileReader(
 				"C:\\Users\\simon\\Documents\\GitHub\\DHBW-Altklausuren\\src\\main\\java\\de\\dhbwka\\dbvasion\\connections.txt"
 		))) {
-			String line = br.readLine();
-			while (line != null) {
+			while (br.ready()) {
+				String line = br.readLine();
 				conns.add(parseTrainConnection(line));
 			}
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-		return conns;
 
-        // REPLACE CODE BELOW
+//        // REPLACE CODE BELOW
 //		String[] dummies = new String[] {
 //			"ICE-1;Hamburg Altona;München Hbf;false;123.40",
 //			"ICE-2;Hamburg Altona;München Hbf;false;123.40",
@@ -60,10 +62,11 @@ public class DBVasion {
 //			}
 //		}
 //		// REPLACE CODE ABOVE
-//
-//		for ( TrainConnection tc : conns ) {
-//			tc.setStops(DBVasion.loadTrainStops(tc.getName()));
-//		}
+
+		for ( TrainConnection tc : conns ) {
+			tc.setStops(DBVasion.loadTrainStops(tc.getName()));
+		}
+		return conns;
 	}
 		
 	private static List<Stop> loadTrainStops(String trainName) throws DBException {
@@ -89,15 +92,15 @@ public class DBVasion {
 
 		try(BufferedReader br = new BufferedReader(new FileReader(
 				"C:\\Users\\simon\\Documents\\GitHub\\DHBW-Altklausuren\\src\\main\\java\\de\\dhbwka\\dbvasion\\" +
-						filename))){
-			String line = br.readLine();
-			while (line != null) {
+						filename ))) {
+			while (br.ready()) {
+				String line = br.readLine();
 				stops.add(parseStops(line));
+				System.out.println();
 			}
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-		return stops;
 
         // REPLACE CODE BELOW
 		// !! Adapt loadConnections first. The dummy connections !!
@@ -109,7 +112,8 @@ public class DBVasion {
 //				stops.add(stop);
 //			}
 //		}
-//		// REPLACE CODE ABOVE
+		// REPLACE CODE ABOVE
+		return stops;
 	}
 	
 	private static TrainConnection parseTrainConnection(String line) {
@@ -117,6 +121,7 @@ public class DBVasion {
 		if ( parts.length == 5 ) {
 			boolean regional = Boolean.parseBoolean(parts[3]);
 			double price = Double.parseDouble(parts[4]);
+			//System.out.println(parts[0] +" "+ parts[1] +" "+ parts[2] +" "+ regional +" "+ price);
 			return new TrainConnection(parts[0],parts[1],parts[2], regional, price);
 		}
 		return null;
@@ -132,8 +137,8 @@ public class DBVasion {
 			
 			String[] timeParts = parts[0].split("[:]");
 			Time time = new Time(Integer.parseInt(timeParts[0]), Integer.parseInt(timeParts[1]));
-			
-			
+
+			//System.out.println(name +" "+ time +" "+ stayPeriod +" "+ stage);
 			return new Stop(name, time, stayPeriod, stage);
 		}
 		return null;
