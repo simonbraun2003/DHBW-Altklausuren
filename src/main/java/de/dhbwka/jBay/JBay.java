@@ -5,8 +5,9 @@ public class JBay {
         Auktionshaus jbay = new Auktionshaus();
         jbay.addAuktion(new Auktion(
                 new Ware("Turnschuhe","Tolle Turnschuhe, kaum getragen"),2));
-                jbay.addAuktion(new Auktion(
-                    new Ware("iPad","Nagelneues iPad 3"),4)); jbay.addAuktion(new Auktion(
+        jbay.addAuktion(new Auktion(
+                    new Ware("iPad","Nagelneues iPad 3"),4));
+        jbay.addAuktion(new Auktion(
                     new Ware("Currywurst","Scharf, ohne Pommes"),5));
                     // An dieser Stelle wird in Teilaufgabe c) erweitert
         //BieterTerminal bieterTerminal = new BieterTerminal(, jbay);

@@ -1,5 +1,6 @@
 package de.dhbwka.jBay;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,10 +30,10 @@ public class Auktionshaus {
         btList.remove(bt);
     }
 
-    public void updateTerminals(){
+    public void updateTerminals(JLabel bieterlb){
         //Todo: Terminals sollen ein update bekommen wenn Eingabe gemacht wurde
         for(BieterTerminal bt : btList){
-            bt.createWindow();
+            bt.update(bieterlb);
         }
     }
 }
