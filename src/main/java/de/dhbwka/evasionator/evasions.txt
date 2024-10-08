@@ -1,0 +1,66 @@
+Bei solchen Fragen werde ich immer melancholisch, sorry!;GENERAL
+Beim Thema {{TOPIC}} bin ich blank.;GENERAL
+Das ist ein überraschender Umstand, den ich erst noch verarbeiten muss.;GENERAL
+Das ist eine heikle Frage, die ich nicht einfach so beantworten kann.;GENERAL
+Das ist eine peinliche Geschichte, die ich lieber ein anderes Mal erzähle.;GENERAL
+Das ist eine persönliche Angelegenheit, die ich lieber für mich behalte.;GENERAL
+Das ist eine unerwartete Frage, die ich noch nicht in Betracht gezogen habe.;GENERAL
+Daran kann ich mich nicht erinnern.;GENERAL,WITNESS
+Das entzieht sich meiner Kenntnis.;GENERAL,WITNESS
+Das ist mir nicht bekannt.;GENERAL,WITNESS
+Das Thema {{TOPIC}} ist mir zu heikel, um diese Frage zu beantworten.;YES_NO,GENERAL,WITNESS
+Das war ein einschneidendes Erlebnis für mich. Es hat wichtige gedankliche Prozesse angestoßen.;YES_NO,GENERAL
+Dazu sollten Sie einen Zeugen befragen!;WITNESS
+Die Antwort, mein Freund, weiß ganz allein der Wind!;YES_NO,GENERAL,WITNESS
+Die Beantwortung der Frage kann ich leider nicht mit meinem Gewissen vereinbaren.;YES_NO,GENERAL,WITNESS
+Die Frage hat aus meiner Sicht nichts mit dem Gesamtkomplex zu tun.;YES_NO,GENERAL,WITNESS
+Die Informationen, die ich zur Beantwortung der Frage brauche, hat leider die Katze gefressen.;GENERAL
+Dies sollte ein echter Experte zu {{TOPIC}} beantworten!;YES_NO,GENERAL
+Diese Frage geht in meinen Intimbereich. Daher kein Kommentar!;YES_NO,GENERAL,WITNESS
+Diese Frage möchte ich gerne als Master-Frage wählen.;YES_NO,GENERAL,WITNESS
+Diese Frage verstehe ich nicht!;GENERAL,WITNESS
+Es wird auf Frage 14 verwiesen.;YES_NO,GENERAL,WITNESS
+Fragen zum Thema {{TOPIC}} beantworte ich grundsätzlich nicht.;YES_NO,GENERAL
+Gibt es eine bestimmte Quelle, Methode oder Perspektive, die Sie bevorzugen oder ausschließen möchten?;GENERAL,WITNESS
+Gibt es noch andere Aspekte oder Faktoren, die ich bei der Beantwortung Ihrer Frage berücksichtigen soll?;YES_NO,GENERAL,WITNESS
+Hier brauche ich wohl einen Joker.;YES_NO,GENERAL,WITNESS
+Hundert Punkte im Bullshit-Bingo!;GENERAL,WITNESS
+Ich bin im Urlaub und habe keinen Internetzugang um das zu recherchieren.;GENERAL,WITNESS
+Ich habe das aufgrund eines Versäumnisses getan, das jemand anderes hinterlassen hatte.;GENERAL,WITNESS
+Ich habe das aus Rücksicht auf jemanden verschwiegen, der mir wichtig ist.;WITNESS
+Ich habe das jetzt schon mehrfach erklärt und werde mich nicht wiederholen.;YES_NO,GENERAL
+Ich habe das so von jemandem gehört, der offensichtlich keine Ahnung hatte.;GENERAL,WITNESS
+Ich habe das wohl aus einer Quelle übernommen, die sich als unzuverlässig herausgestellt hat.;GENERAL,WITNESS
+Ich habe die falsche Informationen bekommen und muss alles neu machen.;GENERAL,WITNESS
+Ich hatte eine allergische Reaktion und musste ins Krankenhaus. Seither weiß ich nichts mehr!;GENERAL,WITNESS
+Ich hatte einen persönlichen Notfall und konnte mich um nichts kümmern.;GENERAL,WITNESS
+Ich hatte keinen Zugang zu dem Material, das ich zur Beantwortung brauche.;YES_NO,GENERAL,WITNESS
+Ich hatte mir das notiert, kann die Notizen aber nicht mehr finden.;YES_NO,GENERAL,WITNESS
+Ich hatte mir das zwar notiert, kann meine eigene Handschrift aber nicht mehr lesen. Sorry!;YES_NO,GENERAL,WITNESS
+Ich kann mich nicht erinnern.;GENERAL,WITNESS
+Ich könnte Ihnen aus dem Stand ein mehrstündiges Referat über {{TOPIC}} halten!;GENERAL,WITNESS
+Ich möchte dazu jemanden anrufen!;YES_NO,GENERAL,WITNESS
+Ich möchte mich nicht selbst belasten und beantworte diese Frage nicht.;YES_NO,GENERAL,WITNESS
+Ich musste mich um meine Familie kümmern und habe keine Ressourcen zur Beantwortung der Frage.;YES_NO,GENERAL,WITNESS
+Ich ziehe es vor, diese Konversation an dieser Stelle nicht fortzusetzen.;YES_NO,GENERAL,WITNESS
+Ist das nicht mit der vorigen Frage bereits beantwortet?;YES_NO,GENERAL,WITNESS
+Ja. Sollten Sie noch Fragen haben oder ich Ihnen irgendwie behilflich sein können, zögern Sie nicht, mich anzurufen.;YES_NO
+Kein Kommentar. Ich habe alles unter dem Zwang getan und bin ausgenutzt worden.;YES_NO,GENERAL,WITNESS
+Können Sie die Frage anders formulieren?;YES_NO,GENERAL,WITNESS
+Könnte ich bitte mehr über den Kontext zu {{TOPIC}} oder den Zweck dieser Frage erfahren?;YES_NO,GENERAL,WITNESS
+Meine gewissenhaft vorbereitete Antwort ist leider verloren gegangen.;GENERAL,WITNESS
+Rufen das die Vögel nicht eh schon von den Dächern?;YES_NO
+Seit dem erlittenen Schock kann ich mich daran leider nicht erinnern.;YES_NO,GENERAL,WITNESS
+Sind Sie mit den grundlegenden Begriffen oder Konzepten vertraut, die mit Ihrer Frage zusammenhängen?;YES_NO,GENERAL,WITNESS
+Vielleicht. Aber was anderes: Haben Sie heute abend schon etwas vor?;YES_NO
+Was genau möchten Sie wissen oder erreichen?;GENERAL,WITNESS
+Wenn Sie uns erreichen möchten, sind wir montags bis freitags von 9 bis 17 Uhr für Sie da.;YES_NO,GENERAL,WITNESS
+Wie detailliert oder umfassend soll meine Antwort sein?;GENERAL,WITNESS
+Wie dringend oder zeitkritisch ist Ihre Frage?;YES_NO,GENERAL,WITNESS
+Wie sind Sie auf diese Frage zum Thema {{TOPIC}} gekommen oder warum ist sie für Sie wichtig?;YES_NO,GENERAL,WITNESS
+Wie passt diese Frage zum Thema {{TOPIC}}?;YES_NO,GENERAL,WITNESS
+Was genau steckt wirklich hinter dieser Frage zum Thema {{TOPIC}}?;YES_NO,GENERAL,WITNESS
+Wurde das nicht sowieso schon durchgestochen?;YES_NO,GENERAL,WITNESS
+Zur Beantwortung dieser Frage fehlt mir wirklich die Phantasie!;GENERAL,WITNESS
+Zu {{TOPIC}} sollten sie jemanden Fragen, der sich damit auskennt.;GENERAL,WITNESS
+Zweiundvierzig.;YES_NO,GENERAL,WITNESS

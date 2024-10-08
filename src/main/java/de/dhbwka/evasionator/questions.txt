@@ -1,0 +1,24 @@
+Wann sind sie zum ersten mal mit dem Thema {{TOPIC}} in Berührung gekommen?;true;GENERAL
+Wann haben Sie zum ersten mal von {{TOPIC}} gehört?;true;GENERAL
+Wissen Sie warum sie zum Vorfall zum Thema {{TOPIC}} befragt werden?;true;GENERAL
+Wie tief sind Sie mit dem Thema {{TOPIC}} vertraut?;true;GENERAL
+Wie haben Sie die Informationen zu {{TOPIC}} verbreitet?;true;GENERAL
+Sind Ihnen die bisherigen Erkenntnisse zu {{TOPIC}} bekannt?;true;YES_NO
+Welche Auswirkungen könnte Ihr Handeln für die Menschheit haben?;false;GENERAL
+Welche Konsequenzen könnte Ihr Handeln für Sie haben?;false;GENERAL
+Gibt es weitere Themen neben {{TOPIC}}, die für diesen Fall relevant sind?;false;GENERAL
+Wie tief sind sie selbst in die Sache verstrickt?;false;GENERAL
+Gibt es Mittäter? Nennen Sie Namen!;false;YES_NO
+Was könnte Sie entlasten?;false;GENERAL
+Welche Personen können noch davon gehört haben?;false;WITNESS
+Welche mildernden Umstände können Sie geltend machen?;false;GENERAL
+Warum ist der Verdacht wohl auf Sie gefallen?;false;GENERAL
+Was können Zeugen dazu beobachtet haben?;false;WITNESS
+Wie hat die Presse Wind von der Sache bekommen?;false;GENERAL
+Welche Informationen wurden dazu durchgestochen?;false;GENERAL
+Welche Konsequenzen haben Sie aus der Angelegenheit für sich persönlich gezogen?;false;GENERAL
+Gibt es in Ihrer Vergangenheit weitere Vorfälle zum Thema {{TOPIC}}? Welche?;false;YES_NO
+Was haben Sie dabei gefühlt?;false;GENERAL
+Welche Maßnahmen wurden ergriffen, um so etwas in Zukunft zu verhindern?;false;GENERAL
+Ist {{TOPIC}} ein Thema, an dem Sie persönlich gearbeitet haben? Woran genau?;false;GENERAL
+Welche Rolle spielten andere Personen in dieser Sache?;false;WITNESS
